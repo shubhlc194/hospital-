@@ -1,0 +1,150 @@
+/* Reset default margin and padding, and set background */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    background-image: url("download\ \(3\).jpeg");
+    background-size: cover;
+  }
+  
+  /* Header styles */
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  /* Navigation styles */
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav ul li {
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  nav ul li a:hover {
+    color: #e0e0e0;
+  }
+  
+  /* Main section container */
+  main {
+    padding: 20px;
+  }
+  
+  /* Banner section styles */
+  #banner {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  #banner h2 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+  }
+  
+  #banner p {
+    font-size: 1.2em;
+    color: #666;
+  }
+  
+  /* Container for appointment and facilities */
+  .container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Styling for appointment steps image */
+  .container img {
+    width: 100%;
+    display: block;
+    margin-top: 20px;
+  }
+  
+  /* Styling for facilities section */
+  .facilities {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 40px;
+    
+  }
+  
+  .facility {
+    width: calc(25% - 20px);
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #f5f5f5;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .facility h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    color: blue;
+  }
+  
+  /* Footer styles */
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  footer p {
+    margin: 0;
+    font-size: 0.9em;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    nav ul {
+      flex-direction: column;
+    }
+  
+    nav ul li {
+      margin-right: 0;
+      margin-bottom: 10px;
+    }
+  
+    .facilities .facility {
+      width: 100%;
+    }
+  }
+/* Example CSS styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /* Fallback color */
+    background-image: url("—Pngtree—hospital\ room\ with\ long\ row_3478026.jpg"); /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Rest of your CSS styles continue below */
+  
